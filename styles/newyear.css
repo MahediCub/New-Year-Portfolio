@@ -51,11 +51,13 @@ nav ul{
     color: #FFFFFF;
     font-size: 45px;
     font-weight: 400px;
+    cursor: pointer;
 }
 
 nav li:hover{
     color: black;
     font-weight: bold;
+    cursor: pointer;
 }
 .hello{
     color: #2c3e50;
@@ -83,3 +85,152 @@ nav li:hover{
 .btn-primary:hover{
     background-color:#2c3e50;
 }
+/* End Header Styles */
+
+
+/* Started Goals Styles */
+.goals-container{
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+
+}
+.goals-items h2{
+    color: #151414;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    margin-bottom: 20px;
+
+}
+.goals-items p{
+    color: #444343;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    
+}
+.goals-items{
+      margin-top: 320px;
+      margin-right: 120px;
+
+}
+.goals{
+    margin: 120px;
+}
+
+.goals-items ul{
+    margin-top: 10px;
+    cursor: pointer;
+}
+.goals-items li:hover{
+    background-color: #2980b9;
+    width: 300px;
+}
+
+/* End Golas Styles */
+
+/* Started Course Styles */
+
+.course-item-container{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+
+}
+.course-title{
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.course-item-container h2{
+    color: #151414;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    margin: 20px 0 20px;
+
+}
+.ourse-item-container p{
+    color: #737272;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+
+}
+/*  End Course Styles */ 
+
+
+/* Started Contact  Styles */
+
+.contact-form{
+    background-image: url(../images/watch.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 150px 250px;
+}
+.call-now{
+    padding: 35px 35px 0 35px;
+}
+.call-now h2{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    
+}
+/* End Contact  Styles */
+
+/* Started Footer Styles */
+.footer-container{
+    position: absolute;
+    width: 1680px;
+    height: auto;
+    left: 0px;
+    top: 2651.96px;
+    background: #151414;
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+
+.footer-container h2{
+    color: #F8F8F8;
+    font-size: 24px;
+    font-weight: 700px;
+    margin-top: 120px;
+}
+.our-address{
+  color: #ffff;
+  font-size: 16px;
+  font-weight: 400px;
+  margin-top: 15px;
+  margin-bottom: 25px;
+
+
+}
+input{
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+color: #F3F3F3;
+padding: 10px 25px;
+border: none;
+border-radius: 5px;
+margin-top: 20px
+
+}
+
+
+
+.icon a{
+    text-decoration: none;
+    font-size: 30px;
+}
+/* End Footer Styles */
+
