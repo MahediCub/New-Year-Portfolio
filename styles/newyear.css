@@ -27,6 +27,7 @@
     background-repeat: no-repeat;
     padding: 20px;
     background-size: cover;
+    background-attachment: fixed;
 
 }
 
@@ -155,6 +156,18 @@ nav li:hover{
     margin: 20px 0 20px;
 
 }
+
+.enroll-now{
+    color: #e74c3c;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+.enroll-now:hover{
+    color: #2c3e50;
+
+}
 .ourse-item-container p{
     color: #737272;
     font-weight: 500;
@@ -168,7 +181,8 @@ nav li:hover{
 /* Started Contact  Styles */
 
 .contact-form{
-    background-image: url(../images/watch.png);
+    background-color: #7f8fa6;
+    background-image:linear-gradient(#0097e6, #e81818a3), url(../images/watch.png);
     background-repeat: no-repeat;
     background-size: cover;
     margin: 150px 250px;
@@ -222,15 +236,12 @@ color: #F3F3F3;
 padding: 10px 25px;
 border: none;
 border-radius: 5px;
-margin-top: 20px
-
+margin-top: 20px;
 }
-
-
 
 .icon a{
     text-decoration: none;
     font-size: 30px;
 }
-/* End Footer Styles */
+/* End footer */
 
